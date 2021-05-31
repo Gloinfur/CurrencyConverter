@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Share_button"
+        android:id="@+id/item_share_button"
+        android:icon="@drawable/ic_icon_share"
+        app:showAsAction="always"
+
+        />
+
+    <item android:title="Currency_list_button"
+        android:id="@+id/item_currencylist_button"
+        android:icon="@drawable/ic_icon_currencylist"
+        app:showAsAction="always"
+        />
+
+    <item android:title="Currency List"
+        android:id="@+id/item_currencylist_button2"
+        app:showAsAction="never"
+        />
+
+    <item android:title="Refresh Rates"
+        android:id="@+id/item_refresh_rates"
+        app:showAsAction="never"
+        />
+</menu>
